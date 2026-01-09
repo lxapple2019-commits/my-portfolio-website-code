@@ -21,11 +21,39 @@
     color: #FF7A00;
 }
 
+.sec-header {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sec-header h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.sec-header p {
+    font-size: 18px;
+    color: #757575;
+    font-weight: regular;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* Main style  */
 
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 38px, bottom right;
 }
 
 nav {
@@ -67,4 +95,216 @@ ul.menu li a {
 .btn:hover {
     background-color: #006be6;
     cursor: pointer;
+}
+
+#banner {
+    /* border: 1px solid rgb(255, 3, 3); */
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-text {
+    max-width: 585px;
+}
+
+#banner .banner-text h2 {
+    font-size: 45px;
+    font-weight: semi-bold;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-text h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-text p {
+    font-size: 18px;
+    color: #757575;
+    font-weight: regular;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .banner-img img {
+    max-width: 584px;
+    max-height: 676px;
+    vertical-align: middle;
+}
+
+#about , #skill , #resume {
+    padding-top: 130px;
+    
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+
+
+}
+
+#about .about-container .about-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .about-container .about-card .a-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+#about .about-container .about-card .a-card p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+#skill .skill-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+#skill .skill-container .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skil-card {
+    padding: 30px;
+    /* border: 1px solid #070000; */
+    box-shadow: 0 6px 50px 0 #00000011;
+    max-width: 267px;
+      
+}
+
+.skil-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skil-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skil-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0px;
+    display: flex;
+    gap: 24px;
+    
+}
+
+.resume-container .sec-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    line-height: auto;
+    margin-bottom: 30px;
+
+} 
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+    color: #D1D1D1;
+    max-width: 558px;
+}
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px; 
+}
+
+.footer-container .social {
+    max-width: 562px;
+
+
+}
+
+.footer-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container .f-form input[type=text], .footer-container .f-form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
